@@ -11,8 +11,6 @@
 		49BA80EF25242511006D248A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BA80EE25242511006D248A /* ContentView.swift */; };
 		49BA80F125242513006D248A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49BA80F025242513006D248A /* Assets.xcassets */; };
 		49BA80F425242513006D248A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49BA80F325242513006D248A /* Preview Assets.xcassets */; };
-		49BA80FF25242513006D248A /* _0757131Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BA80FE25242513006D248A /* _0757131Tests.swift */; };
-		49BA810A25242513006D248A /* _0757131UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BA810925242513006D248A /* _0757131UITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,11 +38,7 @@
 		49BA80F325242513006D248A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		49BA80F525242513006D248A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49BA80FA25242513006D248A /* 00757131Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 00757131Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		49BA80FE25242513006D248A /* _0757131Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0757131Tests.swift; sourceTree = "<group>"; };
-		49BA810025242513006D248A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49BA810525242513006D248A /* 00757131UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 00757131UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		49BA810925242513006D248A /* _0757131UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0757131UITests.swift; sourceTree = "<group>"; };
-		49BA810B25242513006D248A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +70,6 @@
 			isa = PBXGroup;
 			children = (
 				49BA80EB25242511006D248A /* 00757131 */,
-				49BA80FD25242513006D248A /* 00757131Tests */,
-				49BA810825242513006D248A /* 00757131UITests */,
 				49BA80EA25242511006D248A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,24 +102,6 @@
 				49BA80F325242513006D248A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		49BA80FD25242513006D248A /* 00757131Tests */ = {
-			isa = PBXGroup;
-			children = (
-				49BA80FE25242513006D248A /* _0757131Tests.swift */,
-				49BA810025242513006D248A /* Info.plist */,
-			);
-			path = 00757131Tests;
-			sourceTree = "<group>";
-		};
-		49BA810825242513006D248A /* 00757131UITests */ = {
-			isa = PBXGroup;
-			children = (
-				49BA810925242513006D248A /* _0757131UITests.swift */,
-				49BA810B25242513006D248A /* Info.plist */,
-			);
-			path = 00757131UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +242,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49BA80FF25242513006D248A /* _0757131Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +249,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49BA810A25242513006D248A /* _0757131UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

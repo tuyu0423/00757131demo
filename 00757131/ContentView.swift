@@ -26,7 +26,7 @@ struct ContentView: View {
             mushroom().scaleEffect(0.3).offset(x:-90,y:-257)
             mushroom().scaleEffect(0.3).offset(x:150,y:125)
             block().offset(x:0,y:372)
-            block().offset(x:101,y:372)
+            block().offset(x:101,y:371)
             block().offset(x:202,y:372)
             question_box().offset(x:0,y:-10)
             Text("Mario Bros").font(.title).fontWeight(.heavy).foregroundColor(Color.pink).offset(x:0,y:280)
